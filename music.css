@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,700&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+    list-style-type: none;
+    height: 65px;
+    background-color: black ;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.Brand img{
+    width: 84px;
+    height: 64px;
+}
+.Brand{
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 62vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('http://1.bp.blogspot.com/-nfFEnLpiPmw/T9ZeN2Kv5dI/AAAAAAAAEuM/v5DlVCBtmYA/s1600/Girls-With-Black-skullcandy-headphones-wallpapers.jpg');
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 20px;
+    
+}
+.icons i{
+    padding: 0 12px;
+}
+#myprogress{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songitem{
+    height:40px;
+    display: flex;
+    background-color: aliceblue;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitem img{
+height: 40px;
+width: 53px;
+margin: 0 23px;
+}
+.timestamp{
+    margin: 0 23px;
+    align-items: center;
+}
+.songinfo{
+    position: absolute;
+    left: 0;
+    font-family: 'Ubuntu',sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
